@@ -12,3 +12,9 @@ $Host.UI.RawUI.ForegroundColor = "Cyan"
 function prompt {
     "PS $($ExecutionContext.SessionState.Path.CurrentLocation)$('>' * ($nestedPromptLevel + 1)) "
 }
+
+# Colored folder listing
+Set-Alias dir Get-ChildItemColor -option AllScope -Force
+Set-Alias ls Get-ChildItemColor -option AllScope -Force
+
+Set-Alias ssh New-SSHSession
