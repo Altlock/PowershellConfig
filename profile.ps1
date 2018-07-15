@@ -18,3 +18,6 @@ Set-Alias dir Get-ChildItemColor -option AllScope -Force
 Set-Alias ls Get-ChildItemColor -option AllScope -Force
 
 Set-Alias ssh New-SSHSession
+
+Set-Alias firefox "C:\Program Files\Mozilla Firefox\firefox.exe"
+Set-Alias rubymine "D:\Program Files\JetBrains\RubyMine 2018.1.4\bin\rubymine64.exe"
